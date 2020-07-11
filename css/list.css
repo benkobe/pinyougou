@@ -1,0 +1,137 @@
+.sk{
+	position: absolute;
+	top: 40px;
+	left: 185px;
+	height: 32px;
+	border-left: 1px solid red;
+	padding: 5px 0 0 15px;
+}
+.sk_list li{
+	float: left;
+	line-height: 45px;
+	margin: 0 30px;
+}
+.sk_list li a{
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+}
+.sk_list li a:hover{
+	color: #c81623;
+}
+.sk_con li{
+	float: left;
+	margin: 0 20px;
+	line-height: 45px;
+}
+.sk_con li a{
+	font-family: 'icomoon';
+	font-size: 14px;
+	font-weight: 700;
+}
+.sk_bd{
+	overflow: hidden;
+	margin-top: 25px;
+}
+.sk_goods{
+	float: left;
+	width: 288px;
+	height: 458px;
+	border: 1px solid transparent;
+	margin: 10px 0 0 10px;
+}
+.sk_goods:hover{
+	border: 1px solid red;
+}
+.sk_goods_title{
+	font-size: 14px;
+	padding: 10px;
+	font-weight: normal;
+}
+.sk_goods_price{
+	padding: 0 10px;
+}
+.sk_goods_price em{
+	font-size: 22px;
+	color: #c81623;
+}
+.sk_goods_price del{
+	font-size: 14px;
+	color: #a4a4a4;
+	font-weight: 700;
+}
+.sk_goods_progress{
+	padding: 0 10px;
+}
+.bar{
+	display: inline-block;
+	vertical-align: middle;
+	width: 130px;
+	height: 10px;
+	border: 1px solid #c81623;
+	border-radius: 5px;
+	margin: 0 6px;
+}
+.bar_in{
+	width: 87%;
+	height: 11px;
+	background-color: #c81623;
+	border-radius:4px 0 0 4px;
+}
+.sk_goods_progress i,
+.sk_goods_progress em{
+	color: #c81623;
+}
+.buy {
+	display: block;
+	width: 289px;
+	height: 50px;
+	background-color: #c81623;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 7px;
+}
+.buy:hover{
+	color: #fff;
+	font-size: 22px;
+}
+.page{
+	margin: 40px 0;
+	text-align: center;
+}
+.page_num a{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+	line-height: 36px;
+}
+.page_num .pn_prev,
+.page_num .pn_next{
+	width: 83px;
+}
+.page_num .dotted,
+.page_num .current{
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+.page_skip input{
+	width: 46px;
+	height: 36px;
+	border: 1px solid #ccc;
+	text-align: center;
+	transition: all 0.2s;
+}
+.page_skip input:focus{
+	width: 80px;
+	border: 1px solid skyblue;
+}
+.page_skip button{
+	width: 54px;
+	height: 36px;
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+}
